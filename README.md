@@ -86,25 +86,29 @@ En la siguiente imagen se muestra un ejemplo de GET y POST desde Postman
 
 ### Verbos HTTP en el navegador
 Es bueno aclarar que desde un navegador se realiza una petición get para acceder a una página. Esto lo podemos identificar desde herramientas del desarrollador al consultar una pagina.
+
 ![image](https://user-images.githubusercontent.com/109252002/179073419-34919b69-e9c4-48a6-879e-50e1b8dd9291.png)
 
 ### Estructuras de datos XML y JSON
 
 XML es un estándar de estructura para compartir información, es de fácil entendimiento para la maquina, usando etiquetas, atributos y elementos, generalmente se utiliza en un estandar de protocolo SOAP, ejemplo:
 
-   ![image](https://user-images.githubusercontent.com/109252002/179075122-2c480fb3-6435-455c-a3fb-c5b8c8bdd220.png)
+   ![estructura XML](https://user-images.githubusercontent.com/109252002/179075122-2c480fb3-6435-455c-a3fb-c5b8c8bdd220.png)
 
 JSON es un estándar para compartir información que es mas comprensible al ojo humano, es mas versátil, utiliza parejas de información (nombre: valor)
          
-   ![image](https://user-images.githubusercontent.com/109252002/179075306-073cb477-4b1c-4a56-9ea3-43aa97c9d86a.png)
+   ![ejemplo JSON](https://user-images.githubusercontent.com/109252002/179075306-073cb477-4b1c-4a56-9ea3-43aa97c9d86a.png)
 
 ### Estandar SOAP y Estandar RESTful
 
 El estándar SOAP es un protocolo que comparte información (webservices) con formato XML, dentro de un sobre (envelope), es un símil de una carta fisica, tienes un sobre que es el envelope SOAP que contiene la información dentro, en el caso del ejemplo contendra una carta mientras que el mensaje SOAP estara en una estructura XML.
+
 ![image](https://user-images.githubusercontent.com/109252002/179079034-d04f8cb3-90b6-44d0-ac00-42ca35784f8a.png)
+
 puede que se requiera construir varios servicios para diferentes operaciones.
 
 Por su parte el estándar REST que realiza operaciones en colecciones de datos (resources) de forma más sencilla que SOAP, en general toma como base una colección y se indica con un **Verbo** la operación a realizar y dependiendo esta se puede o no requerir mas data (ejemplo mensaje JSON en request para un POST) 
+
 ![image](https://user-images.githubusercontent.com/109252002/179079294-ed11bffe-d0a8-4463-a662-58bc3d664d37.png)
 
 
