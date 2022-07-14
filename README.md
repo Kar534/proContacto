@@ -93,11 +93,12 @@ Es bueno aclarar que desde un navegador se realiza una petición get para accede
 
 XML es un estándar de estructura para compartir información, es de fácil entendimiento para la maquina, usando etiquetas, atributos y elementos, generalmente se utiliza en un estandar de protocolo SOAP, ejemplo:
 
-   ![estructura XML](https://user-images.githubusercontent.com/109252002/179075122-2c480fb3-6435-455c-a3fb-c5b8c8bdd220.png)
+  ![ejemplo XML](https://user-images.githubusercontent.com/109252002/179088907-36252245-cb55-4a75-b642-0fcd79671061.png)
 
 JSON es un estándar para compartir información que es mas comprensible al ojo humano, es mas versátil, utiliza parejas de información (nombre: valor)
          
-   ![ejemplo JSON](https://user-images.githubusercontent.com/109252002/179075306-073cb477-4b1c-4a56-9ea3-43aa97c9d86a.png)
+  
+  ![ejemplo JSON](https://user-images.githubusercontent.com/109252002/179089194-cdfc1ecf-7f88-467b-a19f-bebbf5c8b917.png)
 
 ### Estandar SOAP y Estandar RESTful
 
@@ -113,6 +114,30 @@ Por su parte el estándar REST que realiza operaciones en colecciones de datos (
 
 
 ## Ejemplo Práctico de GET/POST
+Para consultar un recurso desde Postman se crea un request con operación GET a la url requerida (como se menciona en el paso **Peticiones GET vs POST**)
+![get json](https://user-images.githubusercontent.com/109252002/179089443-a1b633aa-0c6b-4569-a9a7-de61de8193f0.JPG)
+
+En el caso de un POST o creación de registro individual se usa el resource con la operación POST adicionando un JSON con la información a crear.
+![post json](https://user-images.githubusercontent.com/109252002/179090533-25fb1b31-b26c-4e10-8d95-19b779b1335d.JPG)
+![image](https://user-images.githubusercontent.com/109252002/179090597-a571b7d3-5113-4ca6-af3a-3d2b9f6f9df2.png)
+
+Despues de recibir la respuesta del POST se puede volver a consultar o hacer un GET y el registro debe aparecer en la respuesta.
+![get json 2](https://user-images.githubusercontent.com/109252002/179090714-3753b65b-6501-44e3-8fc9-1649a7828894.JPG)
+
+## Introducción Salesforce
+
+## Objetos Salesforce
+
+1.	![image](https://user-images.githubusercontent.com/109252002/179091569-5497aa4f-2c42-48eb-9edc-803f3e666360.png) Lead
+2.	![image](https://user-images.githubusercontent.com/109252002/179091672-4dc89dd4-99bc-4bf1-ba1f-c80967fe29db.png) Account
+3.	![image](https://user-images.githubusercontent.com/109252002/179091741-ac4ad3ba-aeaa-4d3e-9761-0bb58b0f4031.png) Contact
+4.	![image](https://user-images.githubusercontent.com/109252002/179091810-d2c5e8cf-6a63-4f3a-8126-4dd2c4739bd7.png) Opportunity
+5.	![image](https://user-images.githubusercontent.com/109252002/179091867-e80061ba-bc31-4ce1-8d1a-d8dfde65cd18.png) Product
+6.	![image](https://user-images.githubusercontent.com/109252002/179091971-7ceed109-e68b-42e4-834b-bec7f8ae43b2.png) PriceBook
+7.	![image](https://user-images.githubusercontent.com/109252002/179092675-8c5cc546-0364-4fcf-9981-0bff9d83bf3f.png) Quote
+8.	![image](https://user-images.githubusercontent.com/109252002/179092855-1971beea-429b-4d0c-b459-5191e58aa60e.png) Asset
+9.	![image](https://user-images.githubusercontent.com/109252002/179093023-430774fe-ca15-4212-af0f-8d35fb02f135.png) Case
+10.	Article
 
 
 
@@ -124,6 +149,6 @@ Por su parte el estándar REST que realiza operaciones en colecciones de datos (
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 - https://www.w3schools.com/tags/ref_httpmethods.asp
 - https://desarrolloweb.com/articulos/que-es-rest-caracteristicas-sistemas.html
-- 
+
 
 
