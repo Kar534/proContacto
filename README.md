@@ -164,8 +164,7 @@ Las oportunidades son las posibilidades de entablar un negocio tanto con un nuev
 
 **Modelo Entidad Relación** 
 
-![entidad relacion](https://user-images.githubusercontent.com/109252002/179135384-88240134-8758-43e0-b08e-318a25761f8b.jpg)
-
+![entidad relacion](/entidad%20relacion.jpg)
 
 ## Información Nubes Salesforce y conceptos básicos configuración
 
