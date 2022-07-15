@@ -33,7 +33,7 @@ Contextualización de terminos HTTP a bajo nivel
 
 ### Servidor HTTP
 
-Puede considerarse tanto como la maquina que contiene los archivos fuentes para desplegar una pagina o un recurso web (HTML, CSS, JS, etc) o el software que procesa las aplicaciones del lado del servidor recibiendo una petición que interpreta para encontrar los archivos correspondientes y regresando el resultado de la búsqueda junto con los datos asociados. 
+Puede considerarse tanto como la maquina que contiene los archivos fuentes para desplegar una pagina o un recurso web (HTML, CSS, JS, etc) o el software que procesa las aplicaciones del lado del servidor recibiendo una petición que interpreta para encontrar los archivos correspondientes y regresando el resultado de la búsqueda junto con los datos asociados. [^1]
 
 En la imagen se puede ver una interación entre un usurio que consulta una página o recurso, resumiendo tendriamos:
 ![peticiones http paso a paso](https://user-images.githubusercontent.com/109252002/179060082-113eec38-8811-420c-b412-7fc111e786c9.jpeg)
@@ -49,14 +49,14 @@ Es decir, que el servidor HTTP realizaría las tareas mencionadas en el punto 3 
 
 ### Verbos HTTP
 
-Los verbos HTTP son operaciones que pueden realizarse para un recurso HTTP de un servidor web, los mas conocidos considero son :
+Los verbos HTTP son operaciones que pueden realizarse para un recurso HTTP de un servidor web [^2], los mas conocidos considero son :
 - **GET**: utilizado para consultar un recurso y retornar la información asociada (ejemplo consultar las cuentas de tipo prospecto )
 - **POST**: permite crear un recurso que pertenece a una colección de datos (ejemplo crear una cuenta en el objeto Account)
 - **PATCH**: permite actualizar la información de un recurso/registro (ejemplo actualizar el estado de una cuenta)
 - **DELETE**: eliminar el recurso/registro (eliminar una tarea asociada a un cliente como por ejemplo una cita o actividad)
 
 ### Request Response HTTP y Headers
-Podriamos considerar que el request es la información que permite identificar que registro especifico se busca (paso 3 de la imagen de peticiones http paso a paso), mientras el response agrupa la información resultante (paso 4 de la imagen anterior), por su parte los headers son parámetros ocultos que permiten el envío/recepción de un mensaje HTTP, ejemplo Authorization, que puede permitir una conexión JWT o de otro tipo, en otras palabras los header son literales que pueden indicarle al servidor web el formato que se espera de la información o si requiere de un valor especifico por ejemplo una llave adicional para autorizar la consulta.
+Podriamos considerar que el request es la información que permite identificar que registro especifico se busca (paso 3 de la imagen de peticiones http paso a paso), mientras el response agrupa la información resultante (paso 4 de la imagen anterior), por su parte los headers son parámetros ocultos que permiten el envío/recepción de un mensaje HTTP, ejemplo Authorization, que puede permitir una conexión JWT o de otro tipo, en otras palabras los header son literales que pueden indicarle al servidor web el forma [^3]to que se espera de la información o si requiere de un valor especifico por ejemplo una llave adicional para autorizar la consulta .
 
 ### QueryString
 Los queryString son parametros que se adicionan a la URL (o consulta) para refinar la información resultante, por ejemplo en un formulario web se ingresa información en varios campos, al pulsar el botón de envío direcciona a una nueva página y puede que la url tenga una configuracion como: 
@@ -68,7 +68,7 @@ Los queryString son parametros que se adicionan a la URL (o consulta) para refin
        valor1, valorN corresponde a la información que ingresaste en el formulario o los valores que determinan la información resultante.
 
 ### ResponseCodes
-Son códigos que permiten conocer si la petición fue realizada satisfactoriamente o se presento algún problema, muchas veces se consulta una pagina web y esta demora en responder y finaliza con un codigo y mensaje de error, entre los mensajes que mas he visto y consideraría mas comunes colocaría:
+Son códigos que permiten conocer si la petición fue realizada satisfactoriamente o se presento algún problema [^4], muchas veces se consulta una pagina web y esta demora en responder y finaliza con un codigo y mensaje de error, entre los mensajes que mas he visto y consideraría mas comunes colocaría:
 
 - **200** : Conexión Exitosa
 - **400**: Bad Request
@@ -77,7 +77,7 @@ Son códigos que permiten conocer si la petición fue realizada satisfactoriamen
 - **502**: Error del Gateway
 
 ## Peticiones GET vs POST
-Una petición GET envían la información en la url, mientras que peticiones post (creación) requiere de adicionar información en el body del request, esto puede que suene un poco mas complejo pero es sencillo, retomando el ejemplo de la página web y el formulario:
+Una petición GET envían la información en la url, mientras que peticiones post (creación) requiere de adicionar información en el body del request [^5], esto puede que suene un poco mas complejo pero es sencillo, retomando el ejemplo de la página web y el formulario:
  - Si fuera un formulario de login se estaría realizando un get o una consulta del usuario, por lo cual se enviaría la información (tal vez encriptada) en un queryString en la url.
  - Por su parte si el formulario direcciona a una página de creación se realizaría un POST y necesitaría que se indicara el recurso a utilizar (ejemplo contactos) mas un mensaje con la información ingresada.
 
@@ -108,7 +108,7 @@ El estándar SOAP es un protocolo que comparte información (webservices) con fo
 
 puede que se requiera construir varios servicios para diferentes operaciones.
 
-Por su parte el estándar REST que realiza operaciones en colecciones de datos (resources) de forma más sencilla que SOAP, en general toma como base una colección y se indica con un **Verbo** la operación a realizar y dependiendo esta se puede o no requerir mas data (ejemplo mensaje JSON en request para un POST) 
+Por su parte el estándar REST que realiza operaciones en colecciones de datos (resources) de forma más sencilla que SOAP [^6], en general toma como base una colección y se indica con un **Verbo** la operación a realizar y dependiendo esta se puede o no requerir mas data  (ejemplo mensaje JSON en request para un POST) 
 
 ![image](https://user-images.githubusercontent.com/109252002/179079294-ed11bffe-d0a8-4463-a662-58bc3d664d37.png)
 
@@ -142,25 +142,31 @@ Los contactos son personas asociadas a las cuentas, es la identificación de ite
 
 4.	![image](https://user-images.githubusercontent.com/109252002/179091810-d2c5e8cf-6a63-4f3a-8126-4dd2c4739bd7.png) Opportunity
 
-Las oportunidades son las posibilidades de entablar un negocio tanto con un nuevo cliente como con existentes.
+Las oportunidades son las posibilidades de entablar un negocio tanto con un nuevo cliente como con existentes  (ventas/negocios/ofertas).
 
 5.	![image](https://user-images.githubusercontent.com/109252002/179091867-e80061ba-bc31-4ce1-8d1a-d8dfde65cd18.png) Product
 
+Se refiere a los productos o servicios que maneja la compañia y ofrece a sus clientes, ejemplo planes de telefonía.
 
 6.	![image](https://user-images.githubusercontent.com/109252002/179091971-7ceed109-e68b-42e4-834b-bec7f8ae43b2.png) PriceBook
 
+Esta relacionado con los productos, en general se puede entender como agrupaciones de productos que se usaran en oportunidades, ejemplo listado de precios para clientes VIP.
 
 7.	![image](https://user-images.githubusercontent.com/109252002/179092675-8c5cc546-0364-4fcf-9981-0bff9d83bf3f.png) Quote
 
+Las ofertas son registros que pueden asociarse a una oportunidad, permitiendo generar una o varias propuestas para el cliente.
 
 8.	![image](https://user-images.githubusercontent.com/109252002/179092855-1971beea-429b-4d0c-b459-5191e58aa60e.png) Asset
 
+Son las referencias de productos que han sido adquiridos por un cliente, por ejemplo si la compañia ofreciera planes de telefonía como el superX y el plusW, durante el proceso de venta el cliente acepta el plan plusW, se generaría un registro que indique la línea que esta asociada a dicho plan.
 
 9.	![image](https://user-images.githubusercontent.com/109252002/179093023-430774fe-ca15-4212-af0f-8d35fb02f135.png) Case
 
+Los Casos son registros que trazan lo que corresponda a PRQs de los clientes, es decir tomando el ejemplo de la línea telefónica, si nuestro cliente tuviera un problema de conectividad podría solicitar que se haga una revisión de su linea, el agente que lo atienda o el formulario que complete, generaría el respectivo case que se asociará a su cuenta.
 
 10.	![image](https://user-images.githubusercontent.com/109252002/179121751-66d9f044-00ea-4893-8b21-6a59478f7610.png) Knowledge Article
 
+Knowledge o más especificamente los articulos de conocimiento brindan la oportunidad de crear registros de ayuda para resolución de temas frecuentes o comunes, en el ejemplo del caso se podría complementar con que el asesor consulta su "base de conocimiento" encontrando un evento similar al reportado por el cliente, le indica al cliente que realice unos pasos o sigue el mismo esos pasos para ver si puede solucionar el caso.
 
 **Modelo Entidad Relación** 
 
@@ -207,14 +213,14 @@ M.	¿Qué es un ERP?
 N.	¿Salesforce es un ERP?
 
 
-### links de ayuda o más Información
 
-- https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/protocolo-http/
-- https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/http-request/
-- https://gavilanch.wordpress.com/2019/01/03/anatomia-de-una-peticion-http/
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-- https://www.w3schools.com/tags/ref_httpmethods.asp
-- https://desarrolloweb.com/articulos/que-es-rest-caracteristicas-sistemas.html
+
+[^1]: https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/protocolo-http/
+[^2]: https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/http-request/
+[^3]: https://gavilanch.wordpress.com/2019/01/03/anatomia-de-una-peticion-http/
+[^4]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+[^5]: https://www.w3schools.com/tags/ref_httpmethods.asp
+[^6]: https://desarrolloweb.com/articulos/que-es-rest-caracteristicas-sistemas.html
 
 
 
