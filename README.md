@@ -174,12 +174,29 @@ Knowledge o más especificamente los articulos de conocimiento brindan la oportu
 
 ## Información Nubes Salesforce y conceptos básicos configuración
 
-Soluciones de Salesforce
+### Soluciones de Salesforce
 A.	¿Qué es Salesforce?
+
+Salesforce es una plataforma que permite gestionar la información de los clientes de una compañia (CRM), permitiendo que en un mismo aplicativo puedan resolver muchos puntos asociados con sus clientes como ventas, reclamos, marketing, etc.
+
+Esta compañia tiene mas de 20 años de existencia y permite la integración con varios aplicativos, se mantiene en constante cambio y mejora. 
+
 B.	¿Qué es Sales Cloud?
+
+Salesforce trabaja por "nubes" o modulos que permiten agrupar funcionalidades, Sales Cloud por ejemplo se encargaría de los procesos de venta, retomando los objetos principales tendriamos iteración entre un lead que se convierte en un contacto, una cuenta , una oportunidad (no siempre se generan los tres, depende de temas de negocio), en la oportunidad se concretaria el negocio, en cuentas veriamos los activos asociados o adquiridos, etc.
+
 C.	¿Qué es Service Cloud?
+
+por la parte de Service Cloud, esta "nube" se encarga de los temas de reclamos con el objetivo de garantizar la satisfacción de los clientes (dependiendo los requerimientos del negocio).
+
 D.	¿Qué es Health Cloud?
+
+Health Cloud agruparía las funcionalidades de un CRM que esta dirigido a empresas de salud como hospitales, que deben atender pacientes,generar sus citas, etc.
+
 E.	¿Qué es Marketing Cloud?
+
+Marketing Cloud
+
 Funcionalidades de Salesforce
 A.	¿Qué es un RecordType?
 B.	¿Qué es un ReportType?
