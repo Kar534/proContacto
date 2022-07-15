@@ -137,7 +137,7 @@ Despues de recibir la respuesta del POST se puede volver a consultar o hacer un 
 7.	![image](https://user-images.githubusercontent.com/109252002/179092675-8c5cc546-0364-4fcf-9981-0bff9d83bf3f.png) Quote
 8.	![image](https://user-images.githubusercontent.com/109252002/179092855-1971beea-429b-4d0c-b459-5191e58aa60e.png) Asset
 9.	![image](https://user-images.githubusercontent.com/109252002/179093023-430774fe-ca15-4212-af0f-8d35fb02f135.png) Case
-10.	Article
+10.	![image](https://user-images.githubusercontent.com/109252002/179121751-66d9f044-00ea-4893-8b21-6a59478f7610.png) Knowledge (Article)
 
 
 
