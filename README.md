@@ -131,15 +131,19 @@ Despues de recibir la respuesta del POST se puede volver a consultar o hacer un 
 1.	![image](https://user-images.githubusercontent.com/109252002/179091569-5497aa4f-2c42-48eb-9edc-803f3e666360.png) Lead
 
 Un Lead o prospecto corresponde a un posible cliente, generalmente nacen de procesos de marketing, aunque pueden aparecer como interesados en adquirir o conocer algún producto, a partir de un lead se puede obtener o generar un Contacto, una cuenta o una oportunidad en el proceso de conversión.
+
 2.	![image](https://user-images.githubusercontent.com/109252002/179091672-4dc89dd4-99bc-4bf1-ba1f-c80967fe29db.png) Account
 
 Una Cuenta corresponde a un cliente, competidor  o partner, en modelos B2B corresponden a la empresa con quien se tendran relaciones laborales.
+
 3.	![image](https://user-images.githubusercontent.com/109252002/179091741-ac4ad3ba-aeaa-4d3e-9761-0bb58b0f4031.png) Contact
 
 Los contactos son personas asociadas a las cuentas, es la identificación de iteraccion humana a quien se le ofreceran oportunidades y de quienes se obtendran reclamos.
+
 4.	![image](https://user-images.githubusercontent.com/109252002/179091810-d2c5e8cf-6a63-4f3a-8126-4dd2c4739bd7.png) Opportunity
 
 Las oportunidades son las posibilidades de entablar un negocio tanto con un nuevo cliente como con existentes.
+
 5.	![image](https://user-images.githubusercontent.com/109252002/179091867-e80061ba-bc31-4ce1-8d1a-d8dfde65cd18.png) Product
 
 
