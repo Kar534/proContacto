@@ -253,7 +253,7 @@ Web to Case por su parte tambien se puede habilitar para usar un formulario en u
 
 N.	¿Para qué sirve la funcionalidad Omnichannel?
 
-OmniChannel sirve para permitir a los usuarios gestionar casos o registros no solamente de su canal de atención, garantizando la atención oportuna del cliente y todo lo que pueda implicar esta (satisfación/fidelización).
+OmniChannel sirve para permitir a los usuarios gestionar casos o registros no solamente de su canal de atención [^7], garantizando la atención oportuna del cliente y todo lo que pueda implicar esta (satisfación/fidelización).
 
 O.	¿Para qué sirve la funcionalidad Chatter?
 
@@ -262,11 +262,11 @@ Chatter es una herramienta que permite la comunicación, colaboración y compart
 ### Conceptos generales
 A.	¿Qué significa SaaS?
 
-La Sigla SaaS significa Software as a Service, en el cual el proveedor de servicio se encarga de la infraestructura, ejemplo servidores, mantenimiento y el software que se utiliza.
+La Sigla SaaS significa Software as a Service, en el cual el proveedor de servicio se encarga de la infraestructura, ejemplo servidores, mantenimiento y el software que se utiliza [^8].
 
 B.	¿Salesforce es Saas?
 
-Salesforce puede considerarse como PaaS (Platform as a Service), en la cual se entregan aplicaciones prácticamente listas para usar, el consumidor se encarga de configurar sus reglas de negocio y se desentiende de configuraciones o requerimientos de infraestructura, seguridad, etc, pues son temas a cargo del proveedor de servicio.
+Salesforce puede considerarse como PaaS (Platform as a Service), en la cual se entregan aplicaciones prácticamente listas para usar, el consumidor se encarga de configurar sus reglas de negocio y se desentiende de configuraciones o requerimientos de infraestructura, seguridad, etc, pues son temas a cargo del proveedor de servicio [^8].
 
 C.	¿Qué significa que una solución sea Cloud?
 
@@ -286,32 +286,35 @@ El funnel por su parte se centra en numeros, ejemplo cuantos prospectos pasaron 
 
 G.	¿Qué significa Customer Experience?
 
-
+Customer Experience es la busqueda de la satisfacción de los clientes, de esta forma se pueden evaluar procesos como la conversión de un cliente, la atención de prqs, fidelización, etc. 
 
 H.	¿Qué significa omnicanalidad?
 
+El termino se refiere a facilitar la comunicación desde diferentes medios, en la actualidad por ejemplo vemos que ya no solo se consiguen comunicaciones telefónicas o vía email, ya es posible interactuar por redes sociales por ejemplo.
 
 I.	¿Qué significa que un negocio sea B2B?¿Qué significa que un negocio sea B2C?¿Qué es un KPI?
 
+La Sigla B2B indica que la venta de productos/servicios esta orientada a comercio con empresas (Business to Business), mientras que un B2C (Business to Customer) se refiere a los que se orientan a consumidores (personas). KPI son indicadores que evaluan desempeño, por ejemplo en campañas ver el retorno de la misma.
 
 J.	¿Qué es una API y en qué se diferencia de una Rest API?
 
+Una API es un conjunto de procedimientos y funciones para acceder a otra aplicación, es un termino amplio que encapsula por ejemplo rest API, SOAP. Rest API es una API que usa protocolo HTTP y formato JSON [^9].
 
 K.	¿Qué es un Proceso Batch?
 
+Un proceso que no requiere de mayor gestión manual y permite realizar acciones sin la supervisión constante de un humano, un ejemplo es la migración de datos a una aplicación, en la cual se realizan pretareas para garantizar que la data no tendra problemas y se ejecutan procesos que enviaran por "lotes" o grupos de registros para procesar.
 
 L.	¿Qué es Kanban?
 
+Método de gestión de trabajo por medio de tarjetas, hace parte de las metodologías ágiles, en este método se configuran o seleccionan diferenes pasos ejemplo, analisis, diseño, desarrollo, pruebas, terminado y se hace el seguimiento de los requerimientos (cada uno en una tarjeta diferente).
 
 M.	¿Qué es un ERP? 
 
+ERP es un software que integra funcionalidades de negocio en un solo sistema, se diferencia de un CRM en que ERP trabaja mas procesos internos para disminuir costos mientras CRM busca aumentar ventas, manejar la relación con los clientes.
 
 N.	¿Salesforce es un ERP?
 
-
-
-
-
+No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes.
 
 [^1]: https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/protocolo-http/
 [^2]: https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/http-request/
@@ -319,7 +322,8 @@ N.	¿Salesforce es un ERP?
 [^4]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 [^5]: https://www.w3schools.com/tags/ref_httpmethods.asp
 [^6]: https://desarrolloweb.com/articulos/que-es-rest-caracteristicas-sistemas.html
-https://www.salesforceben.com/salesforce-omni-channel/
-https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/
-
-
+[^7]: https://www.salesforceben.com/salesforce-omni-channel/
+[^8]: https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/
+[^9]: https://www.freelancinggig.com/blog/2018/11/02/what-is-the-difference-between-api-and-rest-api/
+[^10]: https://help.salesforce.com/s/?language=en_US
+[^11]: https://trailhead.salesforce.com/es-MX
