@@ -124,6 +124,14 @@ En el caso de un POST o creación de registro individual se usa el resource con 
 Despues de recibir la respuesta del POST se puede volver a consultar o hacer un GET y el registro debe aparecer en la respuesta.
 ![get json 2](https://user-images.githubusercontent.com/109252002/179090714-3753b65b-6501-44e3-8fc9-1649a7828894.JPG)
 
+## Introducción TrailHead - Perfil
+
+Para la resolución de los módulos del trailmix introductorio (https://trailhead.salesforce.com/es-MX/users/norozco3/trailmixes/introduccion), se utiliza la cuenta asociada al siguiente perfil:
+
+https://trailblazer.me/id/krobayo
+
+
+
 ## Introducción Salesforce
 
 ## Objetos Salesforce
