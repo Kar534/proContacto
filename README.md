@@ -325,6 +325,44 @@ N.	¿Salesforce es un ERP?
 
 No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes.
 
+## importación de data
+
+### Data Import Wizard
+
+1. ingresa al setup de la organización por medio del engranaje, busca "Data Import Wizard"
+![image](https://user-images.githubusercontent.com/109252002/179629271-a67b6b22-5bc7-4fff-9183-3d6c5c932f22.png)
+
+2. Pulsa el boton "Launch Wizard!"
+![image](https://user-images.githubusercontent.com/109252002/179629421-95e23a9a-57ba-4272-a402-72ad651d8f7d.png)
+
+3. Selecciona "Account and Contact", "Add new records" y por último selecciona archivo CSV
+![image](https://user-images.githubusercontent.com/109252002/179629599-fe93c3e1-f9b7-4f68-b399-3ba3afc203b0.png)
+
+4. Se indica la path del archivo, encoding y el separador de valores, despues de seleccionados estos se pulsa next.
+![image](https://user-images.githubusercontent.com/109252002/179629914-4ec5d6c7-1a5e-4f50-a404-28a90546ec2f.png)
+
+5. Se mapean los campos que no coinciden por nombre a algún campo en el objeto, haciendo clic en el link Map de cada registro aparecerá el listado de campos para setear manualmente la coincidencia.
+![image](https://user-images.githubusercontent.com/109252002/179630086-25c1fae8-de8d-4260-85e3-21d9125ce1d3.png)
+![image](https://user-images.githubusercontent.com/109252002/179630262-2930d0c7-d694-4ec2-8996-1035e448a402.png)
+
+6. Despues de mapear todos los valores se pulsa el boton siguiente (next)
+![image](https://user-images.githubusercontent.com/109252002/179630351-97e85136-7abb-4cf6-84ff-3b37d53d797f.png)
+
+7. Se inicia la importación con el botón "Start Import"
+![image](https://user-images.githubusercontent.com/109252002/179630606-0b564a10-6b77-4a91-b71c-8795db0dc85a.png)
+
+8. Se visualiza la creación del job de importación
+![image](https://user-images.githubusercontent.com/109252002/179630736-908755f7-32f0-4f6d-8265-41cc485a4bec.png)
+![image](https://user-images.githubusercontent.com/109252002/179631138-83e94085-3ae6-43fe-a86a-538b62b7780b.png)
+
+
+### importación con Dataloader
+
+
+
+
+
+ 
 
 
 [^1]: https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/protocolo-http/
