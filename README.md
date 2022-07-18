@@ -195,29 +195,29 @@ Salesforce trabaja por "nubes" o modulos que permiten agrupar funcionalidades, S
 
 C.	¿Qué es Service Cloud?
 
-por la parte de Service Cloud, esta "nube" se encarga de los temas de reclamos con el objetivo de garantizar la satisfacción de los clientes (dependiendo los requerimientos del negocio).
+Por su parte, Service Cloud, es "nube" se encarga de los temas de reclamos (PQRs) con el objetivo de garantizar la satisfacción de los clientes (dependiendo los requerimientos del negocio).
 
 D.	¿Qué es Health Cloud?
 
-Health Cloud agruparía las funcionalidades de un CRM que esta dirigido a empresas de salud como hospitales, que deben atender pacientes,generar sus citas, etc.
+Health Cloud agrupa las funcionalidades de un CRM que esta dirigido a empresas de salud como hospitales, que deben atender pacientes, generar citas, etc.
 
 E.	¿Qué es Marketing Cloud?
 
-Marketing Cloud es la nube que se encarga de lo relacionado a campañas de mercadeo, en la cual puedes configurar o crear Journeys, editar plantillas para envio de correo y muchas configuraciones mas, puede integrarse con Salesforce como tal y con Einstein lo cual hace que sea mas robusto en las predicciones o sugerencias para los prospectos.
+Marketing Cloud es la nube que se encarga de lo relacionado a campañas de mercadeo, en la cual se puede configurar o crear Journeys, editar plantillas para envío de correo y muchas configuraciones mas, se integra facilmente con Salesforce y con Einstein, lo cual permite que sea mas robusto en las predicciones o sugerencias para los prospectos.
 
 ### Funcionalidades de Salesforce
 
 A.	¿Qué es un RecordType?
 
-Es una configuración que permite que se utilicen diferentes procesos de negocio, listas de valores y page layout según el usuario o alguna condición. ejemplo diferentes pantallas en Account para un usuario con perfil gerencial y para uno de gestion de reclamos.
+Es una configuración que permite que se utilicen diferentes procesos de negocio, listas de valores y page layout según el usuario o alguna condición. ejemplo diferentes pantallas en Account para un usuario con perfil gerencial y para uno de gestión de reclamos.
 
 B.	¿Qué es un ReportType?
 
-Report Type corresponde a "plantillas" que se usan para crear los reportes en salesforce, de caja se pueden encontrar muchas plantillas para reportes basicos para varias entidades, tambien es posible crear un Report Type customizado, con maximo 4 niveles y seleccionando la relaciones entre los objetos que intervienen en dichos "niveles".
+Report Type corresponde a "plantillas" que se usan para crear los reportes en salesforce, de caja (OOTB) se pueden encontrar muchas plantillas para reportes basicos de varias entidades, tambien es posible crear un Report Type customizado, con maximo 4 niveles y seleccionando las relaciones entre los objetos que intervienen en dichos "niveles".
 
 C.	¿Qué es un Page Layout?
 
-Page Layout, es el "lienzo", pantalla para vista en especifico, que determina los campos que se mostraran a un usuario.
+Page Layout, es el "lienzo", pantalla o vista en específico, que determina los campos que se mostraran a un usuario.
 
 D.	¿Qué es un Compact Layout?
 
@@ -225,7 +225,7 @@ Es un layout que contiene campos principales, pensado para configuraciones rapid
 
 E.	¿Qué es un Perfil?
 
-Un perfil es un conjunto de permisos que se asocian a uno o varios usuarios y que puede habilitar o restringuir acceso a objetos o acciones en estos mismos (que puede ver o hacer), por ejemplo un usuario de gestion de reclamos puede que no deba tener acceso a las oportunidades de un cliente, por lo tanto su perfil no tendra marcado ninguna opción para ver información en el objeto en mención, así mismo puede que no tenga permisos para editar o eliminar un cliente, por lo tanto a nivel de account podria tener solo acceso de tipo lectura. En general se configura en un perfil que Apps, Tabs, tipos de registro, page layouts campos puede ver y los respectivos permisos CRUD de objetos tanto vainila (nativos) como customizados (creados por los usuarios).
+Un perfil es un conjunto de permisos que se asocian a uno o varios usuarios y que puede habilitar o restringuir acceso a objetos o acciones en estos mismos (que puede ver o hacer), por ejemplo un usuario de gestión de reclamos no debería tener acceso a las oportunidades de un cliente, por lo tanto su perfil no tendra marcado ninguna opción para ver información en el objeto en mención, así mismo puede que no tenga permisos para editar o eliminar un cliente, por lo tanto a nivel de account podria tener solo acceso de tipo lectura. En general se configura en un perfil que Apps, Tabs, tipos de registro, page layouts, campos puede ver y los respectivos permisos CRUD de objetos tanto estándar (nativos) como customizados (creados por los usuarios).
 
 F.	¿Qué es un Rol?
 
@@ -233,15 +233,15 @@ Los roles configuran el nivel de visibilidad de registros (o datos), es decir pu
 
 G.	¿Qué es un Validation Rule?
 
-Validation Rules son configuraciones que validan reglas de negocio con respecto a los campos ingresados en los formularios, ejemplo si una oferta se selecciona como tipo perdida debe incluir un motivo y descripcion del mismo, de lo contrario no se podra actualizar el registro. 
+Validation Rules son configuraciones que validan reglas de negocio con respecto a los campos ingresados en los formularios, evitando guardar el registro hasta que no se cumplan los criterios, ejemplo si una oferta se selecciona como tipo perdida debe incluir un motivo y descripción del mismo, de lo contrario no se podra actualizar el registro. 
 
 H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?
 
-Entre objetos se pueden tener relaciones o asociaciones, por ejemplo una cuenta puede tener un objeto customizado de tipo referencias comerciales, al eliminar la cuenta estas referencias dependen unicamente de esa cuenta por lo tanto se eliminaran con ella y al crear un registro siempre tendra esa referencia de la cuenta a la que pertenece. Por su parte las relaciones de tipo lookup no son obligatorias por ejemplo puedo crear un caso que puede o no tener asociado una cuenta, al eliminarse la cuenta el caso se mantiene en la base de datos.
+Entre objetos se pueden tener relaciones o asociaciones, por ejemplo una cuenta puede tener un objeto customizado de tipo referencias comerciales, al eliminar la cuenta estas referencias dependen unicamente de esa cuenta por lo tanto se eliminarán con ella y al crear un registro siempre tendrá esa referencia de la cuenta a la que pertenece. Por su parte las relaciones de tipo lookup no son obligatorias por ejemplo puedo crear un caso que puede o no tener asociado una cuenta, al eliminarse la cuenta el caso se mantiene en la base de datos.
 
 I.	¿Qué es un Sandbox?
 
-Las Sandbox son entornos creados para desarrollo o pruebas de desarrollos o configuraciones antes de pasar a la versión productiva, contienen configuraciones similares a producción, según las licencias adquiridas se pueden crear diferente cantidad de sandboxes.
+Las Sandboxes son entornos creados para desarrollo o pruebas de desarrollos o configuraciones antes de pasar a la versión productiva, contienen configuraciones similares a producción, según las licencias adquiridas se pueden crear diferente cantidad de sandboxes asociadas a una organización productiva.
 
 J.	¿Qué es un ChangeSet?
 
@@ -249,40 +249,41 @@ Son archivos o compilación de configuraciones que se pueden migrar de un ambien
 
 K.	¿Para qué sirve el import Wizard de Salesforce?
 
-Es una herramienta de salesforce para cargar data masiva (no mas de 50000 registros) para algunos objetos vainilla como Account, Contact, Lead, Campaign Members, Solutions y Person Accounts, tambien es posible usarla para objetos custom. desde el Setup de Salesforce se puede seleccionar el archivo y hacer un mapeo de los campos que corresponden a la información a importar.
+Data Import Wizard es una herramienta de salesforce para cargar data masiva (no más de 50.000 registros) para algunos objetos estándar como Account, Contact, Lead, Campaign Members, Solutions y Person Accounts, tambien es posible usarla para objetos customizados. desde el Setup de Salesforce se puede seleccionar el archivo y hacer un mapeo de los campos que corresponden a la información a importar.
 
 L.	¿Para qué sirve la funcionalidad Web to Lead?
 
-Web to Lead es una configuración OOTB que se puede habilitar para generar un formulario que se pueden insertar en una página web, de esta forma al llenarlo, la información generará el registro en los prospectos en Salesforce, esto funciona para hacer autogestión en ofertas o servicios a los que el cliente desea acceder.
+Web to Lead es una configuración OOTB que se habilita para generar un formulario que se puede insertar en una página web, de esta forma al llenarlo, la información generará el registro en los prospectos en Salesforce, esto funciona para hacer autogestión en ofertas o servicios a los que el cliente desea acceder.
 
 M.	¿Para qué sirve la funcionalidad Web to Case?
 
-Web to Case por su parte tambien se puede habilitar para usar un formulario en una página web, pero la información resultante se usará en la entidad de Casos, es decir sirve para autogestión de reclamos. 
+Web to Case por su parte también se puede habilitar para usar un formulario en una página web, pero la información resultante se usará en la entidad de Casos, es decir sirve para autogestión de reclamos. 
 
 N.	¿Para qué sirve la funcionalidad Omnichannel?
 
-OmniChannel sirve para permitir a los usuarios gestionar casos o registros no solamente de su canal de atención [^7], garantizando la atención oportuna del cliente y todo lo que pueda implicar esta (satisfación/fidelización).
+OmniChannel sirve para permitir a los usuarios gestionar casos o registros no solamente de su canal de atención (ejemplo SMS, WEB, presencial,etc) [^7], garantizando la atención oportuna del cliente y todo lo que pueda implicar esta (satisfación/fidelización).
 
 O.	¿Para qué sirve la funcionalidad Chatter?
 
 Chatter es una herramienta que permite la comunicación, colaboración y compartir información entre usuarios, con el fin de mejorar la eficiencia de las ventas, atención de reclamos o adquirir conocimiento en tiempo mas corto que otros metodos como por ejemplo enviar un correo y esperar la respectiva respuesta.
 
 ### Conceptos generales
+
 A.	¿Qué significa SaaS?
 
 La Sigla SaaS significa Software as a Service, en el cual el proveedor de servicio se encarga de la infraestructura, ejemplo servidores, mantenimiento y el software que se utiliza [^8].
 
 B.	¿Salesforce es Saas?
 
-Salesforce puede considerarse como PaaS (Platform as a Service), en la cual se entregan aplicaciones prácticamente listas para usar, el consumidor se encarga de configurar sus reglas de negocio y se desentiende de configuraciones o requerimientos de infraestructura, seguridad, etc, pues son temas a cargo del proveedor de servicio [^8].
+No, Salesforce puede considerarse como **PaaS** (Platform as a Service), en la cual se entregan aplicaciones prácticamente listas para usar, el consumidor se encarga de configurar sus reglas de negocio y se desentiende de configuraciones o requerimientos de infraestructura, seguridad, etc, pues son temas a cargo del proveedor de servicio [^8].
 
 C.	¿Qué significa que una solución sea Cloud?
 
-Significa que se encuentra en la red de internet, puedes acceder desde cualquier lugar, simplemente necesitas una conexion a internet y conectar con user/password, asi mismo puede que la información este distribuida o resguardada en diferentes servidores.
+Significa que se encuentra en la red de internet y se puede acceder desde cualquier lugar, simplemente se necesita una conexión a internet y conectar con user/password, asi mismo puede que la información este distribuida o resguardada en diferentes servidores.
 
 D.	¿Qué significa que una solución sea On-Premise?
 
-Por su parte On-Premise requiere de infraestructura fisica en una locacion fija, lo cual incrementa costos de mantenimiento para una empresa, es mas complejo la conexión fuera de la red, generalmente se requiere una VPN o puente que permita acceder a la red.
+Por su parte, On-Premise requiere de infraestructura fisica en una locación fija, lo cual incrementa costos de mantenimiento para una empresa, es mas complejo la conexión fuera de la red, generalmente se requiere una VPN o puente que permita acceder a la red.
 
 E.	¿Qué es un pipeline de ventas?
 
@@ -290,7 +291,7 @@ Pipeline son las tareas o pasos que puede/debe hacer un agente de ventas para ce
 
 F.	¿Qué es un funnel de ventas?
 
-El funnel por su parte se centra en numeros, ejemplo cuantos prospectos pasaron a la etapa 2,cuantos se ganaron, etc.
+El funnel se centra en números o cifras, ejemplo cuantos prospectos pasaron a la etapa 2,cuantos se ganaron, etc.
 
 G.	¿Qué significa Customer Experience?
 
@@ -302,11 +303,11 @@ El termino se refiere a facilitar la comunicación desde diferentes medios, en l
 
 I.	¿Qué significa que un negocio sea B2B?¿Qué significa que un negocio sea B2C?¿Qué es un KPI?
 
-La Sigla B2B indica que la venta de productos/servicios esta orientada a comercio con empresas (Business to Business), mientras que un B2C (Business to Customer) se refiere a los que se orientan a consumidores (personas). KPI son indicadores que evaluan desempeño, por ejemplo en campañas ver el retorno de la misma.
+La Sigla B2B indica que la venta de productos/servicios esta orientada a comercio con empresas (Business to Business), mientras que un B2C (Business to Customer) se refiere a los que se orientan a consumidores (personas). KPI son indicadores que evaluan desempeño, por ejemplo en campañas ver el retorno de la misma (ROI).
 
 J.	¿Qué es una API y en qué se diferencia de una Rest API?
 
-Una API es un conjunto de procedimientos y funciones para acceder a otra aplicación, es un termino amplio que encapsula por ejemplo rest API, SOAP. Rest API es una API que usa protocolo HTTP y formato JSON [^9].
+Una API es un conjunto de procedimientos y funciones para acceder a otra aplicación, es un termino amplio que encapsula por ejemplo rest API, SOAP, etc. Rest API es una API que usa protocolo HTTP y formato JSON [^9].
 
 K.	¿Qué es un Proceso Batch?
 
@@ -314,7 +315,7 @@ Un proceso que no requiere de mayor gestión manual y permite realizar acciones 
 
 L.	¿Qué es Kanban?
 
-Método de gestión de trabajo por medio de tarjetas, hace parte de las metodologías ágiles, en este método se configuran o seleccionan diferenes pasos ejemplo, analisis, diseño, desarrollo, pruebas, terminado y se hace el seguimiento de los requerimientos (cada uno en una tarjeta diferente).
+Método de gestión de trabajo por medio de tarjetas, hace parte de las metodologías ágiles, en este método se configuran o seleccionan diferenes pasos ejemplo, analisis, diseño, desarrollo, pruebas, tareas realizadas y se hace el seguimiento de los requerimientos (cada uno en una tarjeta diferente).
 
 M.	¿Qué es un ERP? 
 
