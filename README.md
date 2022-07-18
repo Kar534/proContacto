@@ -7,7 +7,7 @@ Algunas herramientas para desarrollo requieren de configuraciónes locales, se r
 
 ### ![image](https://user-images.githubusercontent.com/109252002/179038196-0967cc68-f389-44ec-8026-887bb649613b.png)  Visual Studio Code  
 
-![image](https://user-images.githubusercontent.com/109252002/179027025-90029ef2-94d6-43c5-8d5c-b3df3520638c.png)
+![image](https://user-images.githubusercontent.com/109252002/179618814-914cfb20-fd60-4e9b-8b3d-fc7dc126dc7c.png)
 Visual Studio Code es un entorno de desarrollo integrado, es decir en ese mismo programa podremos editar o escribir nuestro código, compilarlo o verificar que este correcto, subirlo a nuestro ambiente de desarrollo (ejemplo nuestra organizacion Salesforce), entre otras tareas.
 
 Instalar Visual Studio Code puede ser relativamente fácil, basicamente se descarga el instalador de la pagina https://code.visualstudio.com/Download, se instala en el computador, para el caso de desarrollo salesforce se descarga e instala Salesforce DX CLI y por último se adiciona el pack de extensiones Salesforce en Visual Studio Code, en la web es posible encontrar mucho material relacionado con estas configuraciones, se adicionan algunos links que son muy claros y sencillos para estas mismas:
