@@ -1,4 +1,4 @@
-# Conceptos Básicos CRM y Progración - proContacto
+# Conceptos Básicos CRM y Programación - proContacto
 test practicos procontacto en palabras del común.
 
 ## Instalación Aplicativos requeridos para desarrollo
