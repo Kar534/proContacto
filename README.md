@@ -19,7 +19,7 @@ Instalar Visual Studio Code puede ser relativamente fácil, basicamente se desca
 
 
 ### ![image](https://user-images.githubusercontent.com/109252002/179037934-11f7eff9-0b5e-4098-905d-e2af86aa68db.png) Git & GitBash
-![image](https://user-images.githubusercontent.com/109252002/179038664-b8b37030-6861-424a-9b00-57f4fcb231d6.png)
+![image](https://user-images.githubusercontent.com/109252002/179618564-e2016370-1de4-425e-8efb-86cc2cb6e7e7.png)
 
 Git te permite tener un versionamiento de objetos o recursos, como ejemplo práctico tendremos un documento inicial que tiene 3 páginas, al ver nuevos requerimientos o necesidades que afectan este documento es posible que un usuario adicione 2 paginas mas, por lo cual tendriamos una v0 (inicial) y una versión 1 con los cambios, el versionamiento sirve por ejemplo para recuperarse a una versión anterior en caso de desestimar las necesidades que se contemplaron para la versión 1.
 
@@ -323,6 +323,8 @@ ERP es un software que integra funcionalidades de negocio en un solo sistema, se
 N.	¿Salesforce es un ERP?
 
 No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes.
+
+
 
 [^1]: https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/protocolo-http/
 [^2]: https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/http-request/
