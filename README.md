@@ -400,6 +400,7 @@ Para la carga de registros asociados a otro se debe hacer un paso anterior (caso
 
 ![image](https://user-images.githubusercontent.com/109252002/179830037-a6716713-a17e-4bd6-8f88-9e485514b754.png)
 
+![image](https://user-images.githubusercontent.com/109252002/179831964-b275b8d8-b666-430c-a524-3d7d6302b675.png)
 
  
 
