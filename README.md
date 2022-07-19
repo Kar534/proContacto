@@ -130,6 +130,7 @@ Para la resolución de los módulos del trailmix introductorio (https://trailhea
 
 https://trailblazer.me/id/krobayo
 
+![image](https://user-images.githubusercontent.com/109252002/179835322-05eb33ae-bc92-42db-a747-943ddefc45b3.png)
 
 
 ## Introducción Salesforce
