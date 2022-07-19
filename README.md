@@ -327,7 +327,7 @@ No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes
 
 ## importación de data
 
-### Data Import Wizard
+### Data Import Wizard (hasta 50.000 registros)
 
 1. ingresa al setup de la organización por medio del engranaje, busca "Data Import Wizard"
 ![image](https://user-images.githubusercontent.com/109252002/179629271-a67b6b22-5bc7-4fff-9183-3d6c5c932f22.png)
@@ -356,9 +356,11 @@ No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes
 ![image](https://user-images.githubusercontent.com/109252002/179631138-83e94085-3ae6-43fe-a86a-538b62b7780b.png)
 
 
-### importación con Dataloader
+### importación con Dataloader (hasta 5 millones de registros)
 prerequisitos: 
 - Instalación de Dataloader y programas asociados, en el caso de esta prueba se usa Zulu y Dataloader.
+  https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-jre16.0.2-win_x64.msi 
+    
 - Verificación data a insertar, para que no se presenten errores por data o reglas de negocio.
 
 1. Ingresar a Dataloader, seleccionar la operación a realizar (ejemplo Insertar), conectar con la organización de Salesforce, permitiendo el acceso
@@ -383,8 +385,20 @@ ejemplo
 6. El archivo de exitosos mostrará una columna ID con el indicador unico del registro (este se utilizara para relacionar registros de otras entidades, por ejemplo Oportunidades.
 ![image](https://user-images.githubusercontent.com/109252002/179797310-54826364-dc0c-4edc-9af3-4dbfc0eefcfa.png)
 
+7. En el CRM se veran reflejados los registros creados
+![image](https://user-images.githubusercontent.com/109252002/179820303-e864cfba-9bab-4836-8328-688fca0c3847.png)
+
+Para la carga de registros asociados a otro se debe hacer un paso anterior (caso no se tenga la información de Ids), en la cual se deben buscar los registros para adicionar la información a los registros.
+![image](https://user-images.githubusercontent.com/109252002/179830895-2cb361ad-c73c-4239-886b-b1c972a3d0d2.png)
 
 
+![image](https://user-images.githubusercontent.com/109252002/179829449-c3b053a7-d72d-45a2-9c63-96c7a8ea3e8a.png)
+
+![image](https://user-images.githubusercontent.com/109252002/179829641-1c8dae25-300d-4d8a-a6dc-3251a45b6a2a.png)
+
+![image](https://user-images.githubusercontent.com/109252002/179829715-2dfe7c41-c4a5-4853-8ce9-65751de8f215.png)
+
+![image](https://user-images.githubusercontent.com/109252002/179830037-a6716713-a17e-4bd6-8f88-9e485514b754.png)
 
 
  
