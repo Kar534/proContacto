@@ -361,12 +361,28 @@ prerequisitos:
 - Instalación de Dataloader y programas asociados, en el caso de esta prueba se usa Zulu y Dataloader.
 - Verificación data a insertar, para que no se presenten errores por data o reglas de negocio.
 
-1. ingresar a Dataloader, seleccionar la operación a realizar (ejemplo Insertar), conectar con la organización de Salesforce, permitiendo el acceso
+1. Ingresar a Dataloader, seleccionar la operación a realizar (ejemplo Insertar), conectar con la organización de Salesforce, permitiendo el acceso
 ![image](https://user-images.githubusercontent.com/109252002/179774486-60eb80c8-ea1c-42ce-b0fb-d150556247d2.png)
 ![image](https://user-images.githubusercontent.com/109252002/179775513-971610d7-72f6-4ed3-8377-17ff7faa2f24.png)
 
-2. pulsar siguiente (Next), indicar el objeto a utilizar y el archivo CSV con la información
+2. Pulsar siguiente (Next), indicar el objeto a utilizar y el archivo CSV con la información
 ![image](https://user-images.githubusercontent.com/109252002/179775910-d284a6db-cbfa-4037-84a7-b62b2c6ab6f0.png)
+
+3. Realizar el mapeo o escoger uno existente (en caso de cargas recurrentes del mismo tipo)
+![image](https://user-images.githubusercontent.com/109252002/179795807-949c2789-ad84-4d1e-ae43-1380537fcaf0.png)
+
+4. Indicar folder para alojar archivo log, pulsar finalizar e indicar que inicie la carga
+![image](https://user-images.githubusercontent.com/109252002/179796481-95637d88-f633-4f8f-9307-859799563478.png)
+![image](https://user-images.githubusercontent.com/109252002/179796618-439ca179-2fef-45d2-a942-1027b8f612ea.png)
+
+5. Se indicará el estado del proceso, los registros exitosos y los que fallaron
+![image](https://user-images.githubusercontent.com/109252002/179796829-4198767b-4585-4502-a620-4b8243876da4.png)
+ejemplo
+![image](https://user-images.githubusercontent.com/109252002/179796941-df70c6e1-f797-4745-bdad-835f85a24492.png)
+
+6. El archivo de exitosos mostrará una columna ID con el indicador unico del registro (este se utilizara para relacionar registros de otras entidades, por ejemplo Oportunidades.
+![image](https://user-images.githubusercontent.com/109252002/179797310-54826364-dc0c-4edc-9af3-4dbfc0eefcfa.png)
+
 
 
 
