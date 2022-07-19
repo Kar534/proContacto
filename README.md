@@ -325,27 +325,27 @@ N.	**¿Salesforce es un ERP?**
 
 No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes.
 
-## importación de data
+## Importación de Data
 
 ### Data Import Wizard (hasta 50.000 registros)
 
-1. ingresa al setup de la organización por medio del engranaje, busca "Data Import Wizard"
+1. Ingresar al setup de la organización por medio del engranaje y buscar "Data Import Wizard"
 ![image](https://user-images.githubusercontent.com/109252002/179629271-a67b6b22-5bc7-4fff-9183-3d6c5c932f22.png)
 
-2. Pulsa el boton "Launch Wizard!"
+2. Pulsar el botón "Launch Wizard!"
 ![image](https://user-images.githubusercontent.com/109252002/179629421-95e23a9a-57ba-4272-a402-72ad651d8f7d.png)
 
-3. Selecciona "Account and Contact", "Add new records" y por último selecciona archivo CSV
+3. Seleccionar "Account and Contact", "Add new records" y por último elegir el archivo CSV
 ![image](https://user-images.githubusercontent.com/109252002/179629599-fe93c3e1-f9b7-4f68-b399-3ba3afc203b0.png)
 
-4. Se indica la path del archivo, encoding y el separador de valores, despues de seleccionados estos se pulsa next.
+4. Se ingresa la path del archivo, se selecciona el encoding y el separador de valores, después de seleccionados estos se pulsa next.
 ![image](https://user-images.githubusercontent.com/109252002/179629914-4ec5d6c7-1a5e-4f50-a404-28a90546ec2f.png)
 
-5. Se mapean los campos que no coinciden por nombre a algún campo en el objeto, haciendo clic en el link Map de cada registro aparecerá el listado de campos para setear manualmente la coincidencia.
+5. Se mapean los "elementos" que no coinciden por nombre a algún campo en el objeto, haciendo clic en el link Map de cada registro aparecerá el listado de campos para setear manualmente la coincidencia.
 ![image](https://user-images.githubusercontent.com/109252002/179630086-25c1fae8-de8d-4260-85e3-21d9125ce1d3.png)
 ![image](https://user-images.githubusercontent.com/109252002/179630262-2930d0c7-d694-4ec2-8996-1035e448a402.png)
 
-6. Despues de mapear todos los valores se pulsa el boton siguiente (next)
+6. Después de mapear todos los valores se pulsa el botón siguiente (next)
 ![image](https://user-images.githubusercontent.com/109252002/179630351-97e85136-7abb-4cf6-84ff-3b37d53d797f.png)
 
 7. Se inicia la importación con el botón "Start Import"
@@ -356,33 +356,34 @@ No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes
 ![image](https://user-images.githubusercontent.com/109252002/179631138-83e94085-3ae6-43fe-a86a-538b62b7780b.png)
 
 
-### importación con Dataloader (hasta 5 millones de registros)
-prerequisitos: 
+### Importación con Dataloader (hasta 5 millones de registros)
+
+Prerequisitos: 
 - Instalación de Dataloader y programas asociados, en el caso de esta prueba se usa Zulu y Dataloader.
   https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-jre16.0.2-win_x64.msi 
     
-- Verificación data a insertar, para que no se presenten errores por data o reglas de negocio.
+- Verificación data a insertar, para que no se presenten errores por data o reglas de negocio, por lo general quien realiza la carga no debería hacer cambios sino solicitarlos a la fuente para evitar errores por manipulación de los datos.
 
 1. Ingresar a Dataloader, seleccionar la operación a realizar (ejemplo Insertar), conectar con la organización de Salesforce, permitiendo el acceso
 ![image](https://user-images.githubusercontent.com/109252002/179774486-60eb80c8-ea1c-42ce-b0fb-d150556247d2.png)
 ![image](https://user-images.githubusercontent.com/109252002/179775513-971610d7-72f6-4ed3-8377-17ff7faa2f24.png)
 
-2. Pulsar siguiente (Next), indicar el objeto a utilizar y el archivo CSV con la información
+2. Pulsar siguiente (Next), indicar el objeto a utilizar y el archivo CSV con la información.
 ![image](https://user-images.githubusercontent.com/109252002/179775910-d284a6db-cbfa-4037-84a7-b62b2c6ab6f0.png)
 
-3. Realizar el mapeo o escoger uno existente (en caso de cargas recurrentes del mismo tipo)
+3. Realizar el mapeo o escoger uno existente (en caso de cargas recurrentes del mismo tipo).
 ![image](https://user-images.githubusercontent.com/109252002/179795807-949c2789-ad84-4d1e-ae43-1380537fcaf0.png)
 
-4. Indicar folder para alojar archivo log, pulsar finalizar e indicar que inicie la carga
+4. Indicar folder para alojar archivo log, pulsar finalizar e indicar que inicie la carga.
 ![image](https://user-images.githubusercontent.com/109252002/179796481-95637d88-f633-4f8f-9307-859799563478.png)
 ![image](https://user-images.githubusercontent.com/109252002/179796618-439ca179-2fef-45d2-a942-1027b8f612ea.png)
 
-5. Se indicará el estado del proceso, los registros exitosos y los que fallaron
+5. Se indicará el estado del proceso, los registros exitosos y los que fallaron.
 ![image](https://user-images.githubusercontent.com/109252002/179796829-4198767b-4585-4502-a620-4b8243876da4.png)
 ejemplo
 ![image](https://user-images.githubusercontent.com/109252002/179796941-df70c6e1-f797-4745-bdad-835f85a24492.png)
 
-6. El archivo de exitosos mostrará una columna ID con el indicador unico del registro (este se utilizara para relacionar registros de otras entidades, por ejemplo Oportunidades.
+6. El archivo de exitosos mostrará una columna ID con el indicador unico del registro (este se utilizara para relacionar registros de otras entidades, por ejemplo Oportunidades).
 ![image](https://user-images.githubusercontent.com/109252002/179797310-54826364-dc0c-4edc-9af3-4dbfc0eefcfa.png)
 
 7. En el CRM se veran reflejados los registros creados
@@ -390,7 +391,6 @@ ejemplo
 
 Para la carga de registros asociados a otro se debe hacer un paso anterior (caso no se tenga la información de Ids), en la cual se deben buscar los registros para adicionar la información a los registros.
 ![image](https://user-images.githubusercontent.com/109252002/179830895-2cb361ad-c73c-4239-886b-b1c972a3d0d2.png)
-
 
 ![image](https://user-images.githubusercontent.com/109252002/179829449-c3b053a7-d72d-45a2-9c63-96c7a8ea3e8a.png)
 
