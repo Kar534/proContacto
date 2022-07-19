@@ -357,7 +357,16 @@ No, Salesforce es un CRM, esta orientado a manejar la relación con los clientes
 
 
 ### importación con Dataloader
+prerequisitos: 
+- Instalación de Dataloader y programas asociados, en el caso de esta prueba se usa Zulu y Dataloader.
+- Verificación data a insertar, para que no se presenten errores por data o reglas de negocio.
 
+1. ingresar a Dataloader, seleccionar la operación a realizar (ejemplo Insertar), conectar con la organización de Salesforce, permitiendo el acceso
+![image](https://user-images.githubusercontent.com/109252002/179774486-60eb80c8-ea1c-42ce-b0fb-d150556247d2.png)
+![image](https://user-images.githubusercontent.com/109252002/179775513-971610d7-72f6-4ed3-8377-17ff7faa2f24.png)
+
+2. pulsar siguiente (Next), indicar el objeto a utilizar y el archivo CSV con la información
+![image](https://user-images.githubusercontent.com/109252002/179775910-d284a6db-cbfa-4037-84a7-b62b2c6ab6f0.png)
 
 
 
