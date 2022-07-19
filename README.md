@@ -1,5 +1,5 @@
 # Conceptos Básicos CRM y Programación - proContacto
-test practicos procontacto en palabras del común.
+test prácticos procontacto.
 
 ## Instalación Aplicativos requeridos para desarrollo
 Algunas herramientas para desarrollo requieren de configuraciónes locales, se relaciona documentación de paso a paso de estas.
